@@ -1,0 +1,24 @@
+syntax: glob
+*.DS_Store
+target
+.cache
+.settings
+*.project
+*.classpath
+**.prefs
+**.cache
+.idea
+*.iml
+build.ini
+resolvedrevisions.xml
+pipelines
+dependency-reduced-pom.xml
+tokens
+syntax: regexp
+^pages/
+tmp
+^logs/.*
+node_modules/
+scalastyle-output.xml
+checkstyle-output.xml
+package-lock.json
